@@ -11,7 +11,8 @@ This data was collected with two ideas from the study of human movement in mind:
 - G --> Sustained 
 - H --> Sudden
 
+In the raw data files, the file name ending "_new" indicate motions that were truncated in post-processing steps.
+
 ## Folder Organization
 - **raw_data:** Raw trajectories of robot motion with measured joint positions, velocities, and efforts in an array. 8 Joint values are listed from the end-effector actuators backward to the first joint.     
 - **processed_data:** Extracted Features From Raw Trajectories for the reported datasets of LASSO reduced sets for comparisons between most important features across Laban Effort axis.
-
